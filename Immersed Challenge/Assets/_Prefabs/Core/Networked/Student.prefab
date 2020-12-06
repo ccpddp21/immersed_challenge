@@ -98,6 +98,8 @@ GameObject:
   - component: {fileID: 1759540945184026833}
   - component: {fileID: -3238324015623507074}
   - component: {fileID: -901380444452006042}
+  - component: {fileID: 6359649813006482123}
+  - component: {fileID: 3021458084004671610}
   m_Layer: 0
   m_Name: Student
   m_TagString: Untagged
@@ -258,3 +260,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 293cf1a572d2e124aae8d2a9b8206d8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6359649813006482123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4869077393817143016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bc82da3b7a0ea34cb9628228151d368, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3021458084004671610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4869077393817143016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e843ce35756e2004aa4572bfcdbbaadf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerCamera: {fileID: 0}
+  _yawAngle: 0
+  _pitchAngle: 0
