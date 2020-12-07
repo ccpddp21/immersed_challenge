@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class UserData : ScriptableObject
 {
-    public string username { get; set; }
-    public string displayName { get; set; }
-    public string userType { get; set; }
+    public string Username { get; set; }
+    public string DisplayName { get; set; }
+    public string UserType { get; set; }
 }

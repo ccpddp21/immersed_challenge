@@ -267,7 +267,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7879374806085553541}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8bc82da3b7a0ea34cb9628228151d368, type: 3}
   m_Name: 
@@ -287,3 +287,4 @@ MonoBehaviour:
   _playerCamera: {fileID: 0}
   _yawAngle: 0
   _pitchAngle: 0
+  _sensitivity: 3
