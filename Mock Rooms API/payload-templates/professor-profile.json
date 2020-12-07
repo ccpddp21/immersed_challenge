@@ -1,0 +1,37 @@
+{
+    "users": [
+        {
+            "username": "prof1",
+            "password": "badprac",
+            "profileData": {
+                "username": "prof1",
+                "displayName": "Professor One",
+                "userType": "professor",
+                "registeredRooms": ["room-1", "room-2"]
+            }
+            
+        },
+        {
+            "username": "prof2",
+            "password": "badprac",
+            "profileData": {
+                "username": "prof2",
+                "displayName": "Professor Two",
+                "userType": "professor",
+                "registeredRooms": ["room-3", "room-4"]
+            }
+            
+        },
+        {
+            "username": "prof3",
+            "password": "badprac",
+            "profileData": {
+                "username": "prof3",
+                "displayName": "Professor Three",
+                "userType": "professor",
+                "registeredRooms": ["room-5", "room-6"]
+            }
+            
+        }
+    ]
+}
