@@ -7,6 +7,7 @@ public class CameraMovement : MonoBehaviour
     [SerializeField] private Camera _playerCamera;
     [SerializeField] private float _yawAngle;
     [SerializeField] private float _pitchAngle;
+    [SerializeField] private float _sensitivity = 3;
     private float _yawValue, _pitchValue;
 
     void Awake()
@@ -31,12 +32,12 @@ public class CameraMovement : MonoBehaviour
 
         if (_yawValue != 0)
         {
-            this.transform.Rotate(new Vector3(0, 1, 0) * _yawAngle * _yawValue * Time.deltaTime);
+            this.transform.Rotate(new Vector3(0, 1, 0) * _yawAngle * _yawValue * Time.deltaTime * _sensitivity);
         }
 
         if (_pitchValue != 0)
         {
-            _playerCamera.transform.Rotate(new Vector3(1, 0, 0) * _pitchAngle * _pitchValue * Time.deltaTime);
+            _playerCamera.transform.Rotate(new Vector3(1, 0, 0) * _pitchAngle * _pitchValue * Time.deltaTime * _sensitivity);
         }
     }
 }
