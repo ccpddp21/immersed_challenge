@@ -32,6 +32,36 @@
                 "registeredRooms": ["room-5", "room-6"]
             }
             
+        },
+        {
+            "username": "stu1",
+            "password": "ilearn",
+            "profileData": {
+                "username": "stu1",
+                "displayName": "Student One",
+                "userType": "student",
+                "registeredRooms": ["room-1", "room-2"]
+            }
+        },
+        {
+            "username": "stu2",
+            "password": "ilearn",
+            "profileData": {
+                "username": "stu2",
+                "displayName": "Student Two",
+                "userType": "student",
+                "registeredRooms": ["room-1", "room-2"]
+            }
+        },
+        {
+            "username": "stu3",
+            "password": "ilearn",
+            "profileData": {
+                "username": "stu3",
+                "displayName": "Student Three",
+                "userType": "student",
+                "registeredRooms": ["room-1", "room-2"]
+            }
         }
     ]
 }

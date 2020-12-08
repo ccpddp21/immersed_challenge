@@ -2,36 +2,42 @@
     "rooms": [
         {
             "roomId": "room-1",
+            "port": "7777",
             "displayName": "Math 101",
             "description": "This room is for Math class",
             "professors": ["Professor One"]
         },
         {
             "roomId": "room-2",
+            "port": "7778",
             "displayName": "Math 102",
             "description": "This room is for Math class",
             "professors": ["Professor One"]
         },
         {
             "roomId": "room-3",
+            "port": "7779",
             "displayName": "Science 101",
             "description": "This room is for Science class",
             "professors": ["Professor Two"]
         },
         {
             "roomId": "room-4",
+            "port": "7780",
             "displayName": "Science 102",
             "description": "This room is for Science class",
             "professors": ["Professor Two"]
         },
         {
             "roomId": "room-5",
+            "port": "7781",
             "displayName": "CSC 101",
             "description": "This room is for CSC class",
             "professors": ["Professor Three"]
         },
         {
             "roomId": "room-6",
+            "port": "7782",
             "displayName": "CSC 102",
             "description": "This room is for CSC class",
             "professors": ["Professor Three"]

@@ -32,9 +32,13 @@ public class UserLogin : MonoBehaviour
         {
             Player player = JsonUtility.FromJson<Player>(request.downloadHandler.text);
 
-            AppManager.Singleton.SetUserData(player.username, player.displayName, (UserTypes)Enum.Parse(typeof(UserTypes), player.userType, true), player.registeredRooms);
+            UserData userData = Resources.Load("ScriptableObjects/User Data") as UserData;
+            userData.SetUserData(player.username, player.displayName, (UserTypes)Enum.Parse(typeof(UserTypes), player.userType, true), player.registeredRooms);
 
-            SceneManager.LoadScene("Office");
+            if (userData.UserType == UserTypes.Professor)
+                SceneManager.LoadScene("Office");
+            else if (userData.UserType == UserTypes.Student)
+                SceneManager.LoadScene("Personal");
         }
         catch (Exception e)
         {

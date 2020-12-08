@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Networked Rooms/Leture Hall.unity
     guid: d69cc3011f892724f876a30db419271a
+  - enabled: 1
+    path: Assets/_Scenes/Networked Rooms/Personal.unity
+    guid: 73dbb8ea4f49cab418b43ce834b79e52
   m_configObjects: {}

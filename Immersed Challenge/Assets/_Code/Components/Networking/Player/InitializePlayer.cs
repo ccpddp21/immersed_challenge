@@ -5,6 +5,16 @@ using UnityEngine;
 
 public class InitializePlayer : NetworkedBehaviour
 {
+    private UserData _userData;
+
+    void Awake()
+    {
+        if (_userData == null)
+        {
+            _userData = Resources.Load("ScriptableObjects/User Data") as UserData;
+        }
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -12,10 +22,15 @@ public class InitializePlayer : NetworkedBehaviour
         {
             Destroy(transform.GetComponentInChildren<Camera>().gameObject);
         }
+
+        MoveToSpawnPoint();
     }
 
     private void MoveToSpawnPoint()
     {
-        // if (AppManager.Singleton.)
+        if (_userData.UserType == UserTypes.Professor)
+        {
+            this.transform.position = GameObject.FindGameObjectWithTag("Professor Spawn").transform.position;
+        }
     }
 }

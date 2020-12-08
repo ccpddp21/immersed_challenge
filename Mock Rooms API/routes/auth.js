@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-const authTable = require('../payload-templates/professor-profile.json');
+const authTable = require('../payload-templates/user-profiles.json');
 
 let authenticate = (username, password) => {
     for (var i = 0; i < authTable.users.length; i++)

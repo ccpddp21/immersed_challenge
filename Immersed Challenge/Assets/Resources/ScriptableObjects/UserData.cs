@@ -5,8 +5,16 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "User Data")]
 public class UserData : ScriptableObject
 {
-    public string username;
-    public string displayName;
-    public UserTypes userType;
-    public List<string> registerRooms;
+    public string Username;
+    public string DisplayName;
+    public UserTypes UserType;
+    public List<string> RegisterRooms;
+
+    public void SetUserData(string username, string displayName, UserTypes userType, List<string> rooms)
+    {
+        Username = username;
+        DisplayName = displayName;
+        UserType = userType;
+        RegisterRooms = rooms;
+    }
 }
