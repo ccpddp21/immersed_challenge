@@ -2,7 +2,7 @@
     "users": [
         {
             "username": "prof1",
-            "password": "badprac",
+            "password": "iteach",
             "profileData": {
                 "username": "prof1",
                 "displayName": "Professor One",
@@ -13,7 +13,7 @@
         },
         {
             "username": "prof2",
-            "password": "badprac",
+            "password": "iteach",
             "profileData": {
                 "username": "prof2",
                 "displayName": "Professor Two",
@@ -24,7 +24,7 @@
         },
         {
             "username": "prof3",
-            "password": "badprac",
+            "password": "iteach",
             "profileData": {
                 "username": "prof3",
                 "displayName": "Professor Three",
