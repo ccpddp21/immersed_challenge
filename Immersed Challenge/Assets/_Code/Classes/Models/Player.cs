@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 
 [System.Serializable]
-public abstract class Player
+public class Player
 {
     public string username;
     public string displayName;

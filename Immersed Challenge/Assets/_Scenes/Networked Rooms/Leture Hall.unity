@@ -780,6 +780,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 898336558}
+  - component: {fileID: 898336559}
   m_Layer: 0
   m_Name: App Management
   m_TagString: Untagged
@@ -803,6 +804,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &898336559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 898336557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c95e8881d51ef12468f22452c0faaa3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _userData: {fileID: 0}
 --- !u!1 &927660663
 GameObject:
   m_ObjectHideFlags: 0
@@ -3101,6 +3115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be045ce7f287d1348a44eea48facd55c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _initializationMode: 0
 --- !u!4 &1437685065
 Transform:
   m_ObjectHideFlags: 0

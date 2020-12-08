@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RoomController : MonoBehaviour
+public class RoomInitializer : MonoBehaviour
 {
     public enum RoomModes
     {
@@ -33,38 +33,8 @@ public class RoomController : MonoBehaviour
         }
     }
 
-    public void SendRoomInvite()
+    public void SetRoomType(RoomModes roomMode)
     {
-
-    }
-
-    /// Kick a user from hosted Room
-    public void KickUser(string userId)
-    {
-        // Send HTTP request to Rooms API
-    }
-
-    /// Kick multiple users from hosted Room
-    public void KickUsers(string[] userIds)
-    {
-        for (int i = 0; i < userIds.Length; i++)
-        {
-            KickUser(userIds[i]);
-        }
-    }
-
-    /// Block a user's access to hosted Room
-    public void BlockUser(string userId)
-    {
-        // Send HTTP request to Rooms API
-    }
-
-    /// Block multiple users' access to hosted Room
-    public void BlockUsers(string[] userIds)
-    {
-        for (int i = 0; i < userIds.Length; i++)
-        {
-            BlockUser(userIds[i]);
-        }
+        _initializationMode = roomMode;
     }
 }

@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[CreateAssetMenu(menuName = "User Data")]
 public class UserData : ScriptableObject
 {
-    public string Username { get; set; }
-    public string DisplayName { get; set; }
-    public string UserType { get; set; }
+    public string username;
+    public string displayName;
+    public UserTypes userType;
+    public List<string> registerRooms;
 }

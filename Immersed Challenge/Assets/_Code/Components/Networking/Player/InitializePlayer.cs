@@ -14,9 +14,8 @@ public class InitializePlayer : NetworkedBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
+    private void MoveToSpawnPoint()
     {
-        
+        // if (AppManager.Singleton.)
     }
 }

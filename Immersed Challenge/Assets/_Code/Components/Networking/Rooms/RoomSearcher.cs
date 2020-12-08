@@ -5,18 +5,6 @@ using UnityEngine;
 
 public class RoomSearcher : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     /// Retrive data for list of all active [public] Rooms
     public void FindAllPublicRooms()
     {
