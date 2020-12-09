@@ -9,10 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a1a972550da88c45ab22e1d4286cdda, type: 3}
-  m_Name: User Data
+  m_Script: {fileID: 11500000, guid: d94c7b4eec94d75479dde8778e351835, type: 3}
+  m_Name: Hand Raised
   m_EditorClassIdentifier: 
-  Username: 
-  DisplayName: 
-  UserType: 1
-  RegisterRooms: []

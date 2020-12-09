@@ -8935,7 +8935,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c95e8881d51ef12468f22452c0faaa3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _userData: {fileID: 0}
 --- !u!43 &543325013
 Mesh:
   m_ObjectHideFlags: 0
@@ -28986,11 +28985,6 @@ PrefabInstance:
     - target: {fileID: 3595017515731158409, guid: 04554d0793ed5b24daa6f29442559a5e,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8446451575587970991, guid: 04554d0793ed5b24daa6f29442559a5e,
-        type: 3}
-      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8968991969400302093, guid: 04554d0793ed5b24daa6f29442559a5e,

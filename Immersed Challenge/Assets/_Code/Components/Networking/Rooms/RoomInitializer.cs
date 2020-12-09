@@ -13,6 +13,8 @@ public class RoomInitializer : MonoBehaviour
     }
 
     [SerializeField] private RoomModes _initializationMode;
+    [SerializeField] private GameObject _professorPrefab;
+    [SerializeField] private GameObject _studentPrefab;
 
     // Start is called before the first frame update
     void Start()

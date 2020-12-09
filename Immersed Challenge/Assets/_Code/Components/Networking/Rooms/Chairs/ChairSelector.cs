@@ -24,9 +24,9 @@ public class ChairSelector : NetworkedBehaviour
         _studentSpawnPoints = GameObject.FindGameObjectsWithTag("Student Spawn");
     }
 
-    public Vector3 SelectChair()
+    public GameObject SelectChair()
     {
         int rand = Random.Range(0, _studentSpawnPoints.Length - 1);
-        return _studentSpawnPoints[rand].transform.position;
+        return _studentSpawnPoints[rand];
     }
 }

@@ -287,4 +287,4 @@ MonoBehaviour:
   _playerCamera: {fileID: 0}
   _yawAngle: 0
   _pitchAngle: 0
-  _sensitivity: 3
+  _sensitivity: 1

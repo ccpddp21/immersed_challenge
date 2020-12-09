@@ -6,6 +6,7 @@ using UnityEngine;
 public class InitializePlayer : NetworkedBehaviour
 {
     private UserData _userData;
+    private GameObject _activeChair;
 
     void Awake()
     {
@@ -35,7 +36,14 @@ public class InitializePlayer : NetworkedBehaviour
         else if (_userData.UserType == UserTypes.Student)
         {
             ChairSelector selector = GameObject.FindGameObjectWithTag("Room Manager").GetComponent<ChairSelector>();
-            this.transform.position = selector.SelectChair();
+            GameObject chairSpawn = selector.SelectChair();
+            SetActiveChair(chairSpawn.transform.parent.gameObject);
+            this.transform.position = chairSpawn.transform.position;
         }
+    }
+
+    private void SetActiveChair(GameObject targetChair)
+    {
+        _activeChair = targetChair;
     }
 }
