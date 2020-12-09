@@ -27,8 +27,8 @@ public class CameraMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        _yawValue = Input.GetAxis("Yaw");
-        _pitchValue = Input.GetAxis("Pitch");
+        _yawValue = Input.GetAxis("Horizontal"); // Change when VR
+        _pitchValue = Input.GetAxis("Vertical");    // Change when VR
 
         if (_yawValue != 0)
         {
