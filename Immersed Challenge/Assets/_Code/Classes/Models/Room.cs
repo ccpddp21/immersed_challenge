@@ -5,13 +5,8 @@ using System.Collections.Generic;
 public class Room
 {
     public string roomId;
-    public int port;
+    public string port;
     public string displayName;
     public string description;
     public List<string> professors;
-
-    public class RoomCollection
-    {
-        public Room[] rooms;
-    }
 }

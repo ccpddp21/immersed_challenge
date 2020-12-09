@@ -8,7 +8,6 @@ let authenticate = (username, password) => {
     {
         if (username == authTable.users[i].username && password == authTable.users[i].password)
         {
-            console.log(authTable.users[i].profileData);
             return authTable.users[i].profileData;
         }
     }
