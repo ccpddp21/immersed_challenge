@@ -8,6 +8,8 @@ TagManager:
   - Student Spawn
   - Player Camera
   - Room Manager
+  - Professor Avatar
+  - Student Avatar
   layers:
   - Default
   - TransparentFX
@@ -18,7 +20,7 @@ TagManager:
   - 
   - 
   - Spawns
-  - 
+  - Avatars
   - 
   - 
   - 

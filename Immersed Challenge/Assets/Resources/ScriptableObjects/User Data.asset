@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Username: 
   DisplayName: 
-  UserType: 1
+  UserType: 0
   RegisterRooms: []

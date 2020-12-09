@@ -101,9 +101,9 @@ GameObject:
   - component: {fileID: 6359649813006482123}
   - component: {fileID: 3021458084004671610}
   - component: {fileID: 1030492237124370495}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Student
-  m_TagString: Untagged
+  m_TagString: Student Avatar
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
