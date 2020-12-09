@@ -7,6 +7,7 @@ TagManager:
   - Professor Spawn
   - Student Spawn
   - Player Camera
+  - Room Manager
   layers:
   - Default
   - TransparentFX

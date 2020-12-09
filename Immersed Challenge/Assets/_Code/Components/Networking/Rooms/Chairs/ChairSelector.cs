@@ -5,8 +5,7 @@ using UnityEngine;
 
 public class ChairSelector : NetworkedBehaviour
 {
-    [SerializeField] private GameObject _chairContainer;
-    [SerializeField] private List<GameObject> _chairList;
+    [SerializeField] private GameObject[] _studentSpawnPoints;
 
     // Start is called before the first frame update
     void Start()
@@ -22,9 +21,12 @@ public class ChairSelector : NetworkedBehaviour
 
     private void RecordChairs()
     {
-        for (int i = 0; i < _chairContainer.transform.childCount; i++)
-        {
-            _chairList.Add(_chairContainer.transform.GetChild(i).gameObject);
-        }
+        _studentSpawnPoints = GameObject.FindGameObjectsWithTag("Student Spawn");
+    }
+
+    public Vector3 SelectChair()
+    {
+        int rand = Random.Range(0, _studentSpawnPoints.Length - 1);
+        return _studentSpawnPoints[rand].transform.position;
     }
 }

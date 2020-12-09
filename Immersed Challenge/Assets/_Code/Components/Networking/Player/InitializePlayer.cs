@@ -32,5 +32,10 @@ public class InitializePlayer : NetworkedBehaviour
         {
             this.transform.position = GameObject.FindGameObjectWithTag("Professor Spawn").transform.position;
         }
+        else if (_userData.UserType == UserTypes.Student)
+        {
+            ChairSelector selector = GameObject.FindGameObjectWithTag("Room Manager").GetComponent<ChairSelector>();
+            this.transform.position = selector.SelectChair();
+        }
     }
 }
