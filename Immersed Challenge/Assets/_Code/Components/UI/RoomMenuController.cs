@@ -27,10 +27,10 @@ public class RoomMenuController : MonoBehaviour
         foreach (Room room in rooms)
         {
             GameObject entry = GameObject.Instantiate(_roomDetailPanelPrefab, _roomEntryContainer.transform);
-            _roomDetailPanelPrefab.transform.localScale = new Vector3(1, 1, 1);
+            entry.transform.localScale = new Vector3(1, 1, 1);
 
-            RoomDetailEntry rde = _roomDetailPanelPrefab.GetComponent<RoomDetailEntry>();
-            rde.SetRoomDetails(room.displayName, string.Join(", ", room.professors.ToArray()), room.description);
+            RoomDetailEntry rde = entry.GetComponent<RoomDetailEntry>();
+            rde.SetRoomDetails(room.displayName, string.Join(", ", room.professors.ToArray()), room.description, "127.0.0.1", int.Parse(room.port));
         }
         
     }

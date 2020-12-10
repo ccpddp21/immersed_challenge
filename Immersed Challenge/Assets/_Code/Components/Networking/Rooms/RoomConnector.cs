@@ -51,4 +51,9 @@ public class RoomConnector : MonoBehaviour
             BlockUser(userIds[i]);
         }
     }
+
+    public void LeaveRoom(ulong clientId)
+    {
+        NetworkingManager.Singleton.DisconnectClient(clientId);
+    }
 }

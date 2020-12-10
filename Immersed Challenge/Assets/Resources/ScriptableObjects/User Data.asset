@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a1a972550da88c45ab22e1d4286cdda, type: 3}
   m_Name: User Data
   m_EditorClassIdentifier: 
-  Username: 
-  DisplayName: 
+  Username: prof1
+  DisplayName: Professor One
   UserType: 0
-  RegisterRooms: []
+  RegisterRooms:
+  - room-1
+  - room-2

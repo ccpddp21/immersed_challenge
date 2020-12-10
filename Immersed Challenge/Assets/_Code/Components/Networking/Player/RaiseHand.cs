@@ -21,13 +21,15 @@ public class RaiseHand : NetworkedBehaviour
     {
         if (Input.GetKeyDown(KeyCode.RightShift))
         {
-            SimulateHandRaise();
+            // SimulateHandRaise();
         }
     }
 
-    private void SimulateHandRaise()
+    private void Engage()
     {
         _handRaisedEvent.Raise();
         // _userData.ActiveChair.gameObject.GetComponentInChildren<ChairIndicator>().ChangeColorToWaiting();
     }
+
+
 }

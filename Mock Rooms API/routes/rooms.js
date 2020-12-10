@@ -6,13 +6,13 @@ const rooms = require('../payload-templates/room-details.json');
 let activeServerIds = [];
 
 let getRegisteredRooms = (roomIds) => {
-    let roomList = []
+    let roomList = {"rooms": []}
     for (var i = 0; i < rooms.rooms.length; i++)
     {
         if (roomIds.includes(rooms.rooms[i].roomId))
         {
             console.log(rooms.rooms[i]);
-            roomList.push(rooms.rooms[i]);
+            roomList.rooms.push(rooms.rooms[i]);
         }
     }
     return roomList;
@@ -23,6 +23,7 @@ router.get('/public', (req, res) => {
 });
 
 router.get('/registered', (req, res) => {
+    console.log(req.query.roomIds);
     res.send(getRegisteredRooms(req.query.roomIds));
 });
 

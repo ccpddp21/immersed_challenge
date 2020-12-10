@@ -63,7 +63,7 @@ public class RoomSearcher : MonoBehaviour
         try
         {
             RoomCollection rooms = JsonUtility.FromJson<RoomCollection>(request.downloadHandler.text);
-            // Debug.Log("h");
+            Debug.Log("h");
             _roomMenuController.AddEntries(rooms.rooms.ToArray());
         }
         catch (Exception e)

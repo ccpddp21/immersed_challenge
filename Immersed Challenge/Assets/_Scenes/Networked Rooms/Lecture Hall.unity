@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 503d607b52a16f14c811138063844c24,
+  m_LightingDataAsset: {fileID: 112000000, guid: ef82b34a2525df545841705a3d03ef08,
     type: 2}
   m_UseShadowmask: 0
 --- !u!196 &4
@@ -9782,18 +9782,17 @@ MonoBehaviour:
     - Leture Hall
     - Office
     - Personal
+    - Lecture Hall
     AllowRuntimeSceneChanges: 0
     NetworkedPrefabs:
-    - Prefab: {fileID: 4869077393817143016, guid: 29a00cbf27ec91b4cb6e5b0c2c98796f,
+    - Prefab: {fileID: 7879374806085553541, guid: 6c8d4d8ac5fb4bd499a3a0428d577e15,
         type: 3}
       PlayerPrefab: 0
-    - Prefab: {fileID: 7879374806085553541, guid: 6c8d4d8ac5fb4bd499a3a0428d577e15,
+    - Prefab: {fileID: 4869077393817143016, guid: 29a00cbf27ec91b4cb6e5b0c2c98796f,
         type: 3}
       PlayerPrefab: 0
     - Prefab: {fileID: 4597764708941518899, guid: dae50ac2dc3071d4a881031ccc3594e7,
         type: 3}
-      PlayerPrefab: 0
-    - Prefab: {fileID: 1380869889}
       PlayerPrefab: 0
     PlayerPrefabHash:
       Value: 0
@@ -19619,7 +19618,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1380869890
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20547,7 +20546,6 @@ GameObject:
   - component: {fileID: 1437685065}
   - component: {fileID: 1437685064}
   - component: {fileID: 1437685063}
-  - component: {fileID: 1437685062}
   - component: {fileID: 1437685066}
   - component: {fileID: 1437685067}
   m_Layer: 0
@@ -20557,20 +20555,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1437685062
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1437685061}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01a5f0f3fde579847a828081d77b0d87, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _userData: {fileID: 0}
-  _roomMenuController: {fileID: 0}
 --- !u!114 &1437685063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20590,7 +20574,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1437685061}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: be045ce7f287d1348a44eea48facd55c, type: 3}
   m_Name: 
